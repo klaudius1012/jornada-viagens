@@ -1,15 +1,28 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url(../Fonts/Montserrat-VariableFont_wght.ttf);
+    font-style: normal;
+    font-display: swap;
+}
+
 
 /*propriedades Personalizaveis em CSS*/
 :root{
+
+    --primary-color:#8F0101;
+    --secondary-color: #B81515;
+
+
     --background-primary-color: #ffffff;
     --background-secondary-color: #F5F5F5;
     --background-tertiary-color: #000000;
-
-    --butoon-primary-color:#8F0101;
-    --butoon-secondary-color: #B81515;
-
+  
     --text-primary-color: #222222;
     --text-secondary-color:#ffffff;
+
+    --title-weight: 700;
+    --text-weight: 400;
+    --menu-text-weight: 500;
 }
 
 
@@ -22,5 +35,7 @@
 }
 
 h1{
-    color:var(--butoon-primary-color)
+    font-family: "Montserrat";
+    color:var(--primary-color)
+
 }
