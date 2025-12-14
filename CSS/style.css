@@ -33,3 +33,6 @@ h1 {
   font-family: "Montserrat";
   color: var(--primary-color);
 }
+header{
+   background-color: var(--background-tertiary-color); 
+}
