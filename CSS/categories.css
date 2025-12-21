@@ -5,7 +5,7 @@
   align-items: center;
 }
 
-.card {
+.pct {
   text-align: center;
   padding: 24px 16px;
   color: var(--text-primary-primary-color);
@@ -16,7 +16,7 @@
   background-color: #F5F5F5;
 }
 
-.card header {
+.pct header {
   background-color: transparent;
   display: block;
   position: static;
@@ -24,7 +24,7 @@
   margin-bottom: 24px;
 }
 
-.card footer p {
+.pct footer p {
   font-size: 28px;
   font-weight: bold;
   
@@ -39,7 +39,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .card {
+  .pct {
     width: 220px;
     
   }
