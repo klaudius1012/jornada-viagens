@@ -1,0 +1,46 @@
+.categories-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+}
+
+.card {
+  text-align: center;
+  padding: 24px 16px;
+  color: var(--text-primary-primary-color);
+  border-radius: 16px;
+  width: 312px;
+  height: 220px;
+  box-sizing: border-box;
+  background-color: #F5F5F5;
+}
+
+.card header {
+  background-color: transparent;
+  display: block;
+  position: static;
+  padding: 12px;
+  margin-bottom: 24px;
+}
+
+.card footer p {
+  font-size: 28px;
+  font-weight: bold;
+  
+}
+
+@media screen and (min-width: 768px) {
+  .categories-cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .card {
+    width: 220px;
+    
+  }
+}
