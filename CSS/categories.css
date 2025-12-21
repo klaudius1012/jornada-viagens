@@ -5,6 +5,11 @@
   align-items: center;
 }
 
+.category{
+  text-decoration: none;
+  color: var(--text-primary-color);
+}
+
 .pct {
   text-align: center;
   padding: 24px 16px;
@@ -40,7 +45,7 @@
 
 @media screen and (min-width: 1024px) {
   .pct {
-    width: 220px;
+    width: 240px;
     
   }
 }
